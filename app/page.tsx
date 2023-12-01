@@ -15,7 +15,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to Dev.</strong> This is the example for the{' '}
+            <strong>Welcome to Acme.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
               Next.js Learn Course
             </a>
@@ -34,15 +34,15 @@ export default function Page() {
             src="/hero-desktop.png"
             width={1000}
             height={760}
-            className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop version"
+            className="hidden md:block"
           />
           <Image
             src="/hero-mobile.png"
             width={560}
             height={620}
-            className="block md:hidden"
             alt="Screenshot of the dashboard project showing mobile version"
+            className="block md:hidden"
           />
         </div>
       </div>
